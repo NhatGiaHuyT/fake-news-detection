@@ -117,23 +117,8 @@ Below is the learning curves for our candidate models.
 As we can see that our best performing models had an f1 score in the range of 70's. This is due to less number of data that we have used for training purposes and simplicity of our models. For the future implementations, we could introduce some more feature selection methods such as POS tagging, word2vec and topic modeling. In addition, we could also increase the training data size. We will extend this project to implement these techniques in future to increase the accuracy and performance of our models.
 
 
-### Installing and steps to run the software
+### Run the software
 
-A step by step series of examples that tell you have to get a development env running
-
-1. The first step would be to clone this repo in a folder in your local machine. To do that you need to run following command in command prompt or in git bash
-```
-$ git clone https://github.com/nishitpatel01/Fake_News_Detection.git
-```
-
-2. This will copy all the data source file, program files and model into your machine.
-
-3.
-   - If you have chosen to install anaconda then follow below instructions
-     - After all the files are saved in a folder in your machine. If you chosen to install anaconda from the steps given in 	               ```Prerequisites``` sections then open the anaconda prompt, change the directory to the folder where this project is saved in     your machine and type below command and press enter.
-	```
-	cd C:/your cloned project folder path goes here/
-	```
      - Once you are inside the directory call the ```prediction.py``` file, To do this, run below command in anaconda prompt.
 	```
 	python prediction.py
@@ -142,7 +127,7 @@ $ git clone https://github.com/nishitpatel01/Fake_News_Detection.git
 
      - Once you hit the enter, program will take user input (news headline) and will be used by model to classify in one of  categories of "True" and "False". Along with classifying the news headline, model will also provide a probability of truth associated with it.
 
-4.  If you have chosen to install python (and did not set up PATH variable for it) then follow below instructions:
+If you have chosen to install python (and did not set up PATH variable for it) then follow below instructions:
     - After you clone the project in a folder in your machine. Open command prompt and change the directory to project directory by running below command.
     ```
     cd C:/your cloned project folder path goes here/
@@ -156,7 +141,7 @@ $ git clone https://github.com/nishitpatel01/Fake_News_Detection.git
 
     - Once you hit the enter, program will take user input (news headline) and will be used by model to classify in one of  categories of "True" and "False". Along with classifying the news headline, model will also provide a probability of truth associated with it. It might take few seconds for model to classify the given statement so wait for it.
 
-5.  If you have chosen to install python (and already setup PATH variable for ```python.exe```) then follow instructions:
+If you have chosen to install python (and already setup PATH variable for ```python.exe```) then follow instructions:
     - Open the command prompt and change the directory to project folder as mentioned in above by running below command
     ```
     cd C:/your cloned project folder path goes here/
